@@ -1,0 +1,34 @@
+{
+    "name": "Piano",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "pxt-kitronik-klef-piano": "github:kitronikltd/pxt-kitronik-klef-piano#v0.0.21",
+        "pxt-flexfx": "github:grandpabond/pxt-flexfx#v2.2.7",
+        "midi": "github:microsoft/pxt-midi#v2.2.0",
+        "pxt-28byj-48-stepper": "github:tinkertanker/pxt-stepper-motor#v0.0.5",
+        "ServoBit": "github:4tronix/servobit#v1.3.1",
+        "radio": "*",
+        "servo": "*",
+        "audio-recording": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "Microbit piano": "github:resolute-support/microbit-piano#6f2c4e1cfdf0550f8486941a09f7597003cf32d7"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
